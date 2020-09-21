@@ -1,4 +1,5 @@
 import React from "react";
+import LogoImg from "../images/logo.png";
 
 function Message() {
     return (
@@ -65,9 +66,8 @@ function Element() {
                     
                         <a className="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="/"> 
                             {/*<!--Icon from: http://www.potlabicons.com/ -->*/}
-                            <svg className="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
-                            <rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" fill="rgb(0,0,0)" />
-                            </svg> SeamLogic
+                            <img className="h-8 fill-current inline" src={LogoImg} alt='' />
+                             SeamLogic
                             
                         </a>
                     </div>
