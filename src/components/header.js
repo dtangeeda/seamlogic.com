@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet"
+import { Link } from "react-scroll";
 import LogoImg from "../images/logo.png";
 
 function Header() {
@@ -61,10 +62,10 @@ function Header() {
                       <a className="inline-block py-2 px-4 text-black font-bold no-underline" href="/">Home</a>
                   </li>
                   <li className="mr-3">
-                      <a className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="/">Services</a>
+                      <Link className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" activeClass="active" to="services" spy={true} smooth={true} duration={1000} style={{cursor:'pointer'}}>Services</Link>
                   </li>
                   <li className="mr-3">
-                      <a className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="/">Company</a>
+                      <Link className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" activeClass="active" to="aboutus" spy={true} smooth={true} duration={1000} style={{cursor:'pointer'}}>Company</Link>
                   </li>
               </ul>
               <button id="navAction" className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">Contact</button>

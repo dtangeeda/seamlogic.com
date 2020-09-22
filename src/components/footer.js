@@ -34,7 +34,7 @@ function Message() {
               </g>
             </g>
           </svg>
-        <section className="container mx-auto text-center py-6 mb-12">
+        <section className="container mx-auto text-center py-6 mb-12" id="aboutus">
             <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
                 About US
             </h1>
