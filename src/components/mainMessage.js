@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import heroImg from "../images/analytics.svg";
 
 function MainMessage() {
@@ -15,7 +16,7 @@ function MainMessage() {
 		
 			
 
-			<button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Contact Us</button>
+			<Link className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg" activeClass="active" to="contactus" spy={true} smooth={true} duration={1000} style={{cursor:'pointer'}}>Contact Us</Link>
 			
 		</div>
 		{/*<!--Right Col--> */}
