@@ -3,6 +3,7 @@ import Header from "../components/header.js";
 import Footer from "../components/footer.js";
 import MainMessage from "../components/mainmessage.js";
 import MainItems from "../components/mainitems.js";
+import AboutUs from "../components/aboutus.js";
 import { Helmet } from "react-helmet";
 import { withPrefix } from "gatsby"
 //import { withPrefix, Link } from "gatsby"
@@ -23,6 +24,7 @@ function HomePage() {
     <Header.HeaderNav />
     <MainMessage />
     <MainItems />
+    <AboutUs />
     <Footer.Message />
     <Footer.Element />
     </div>

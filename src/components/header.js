@@ -68,7 +68,7 @@ function Header() {
                       <Link className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" activeClass="active" to="aboutus" spy={true} smooth={true} duration={1000} style={{cursor:'pointer'}}>Company</Link>
                   </li>
               </ul>
-              <button id="navAction" className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">Contact</button>
+              <Link id="navAction" className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75" activeClass="active" to="contactus" spy={true} smooth={true} duration={1000} style={{cursor:'pointer'}}>Contact</Link>
           </div>
       </div>
       

@@ -34,22 +34,29 @@ function Message() {
               </g>
             </g>
           </svg>
-        <section className="container mx-auto text-center py-6 mb-12" id="aboutus">
+          <section className="container mx-auto text-center py-6 mb-12" id="contactus">
             <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
-                About US
+                Contact Us
             </h1>
             <div className="w-full mb-4">
                 <div className="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t" />
             </div>
             <h3 className="my-4 text-xl leading-tight">
-                
-                SeamLogic is founded in the Greater Washington area.  The company focuses on IT Staffing, IT Consulting, Technology Training and Product Development.
-
-                SeamLogic understands that technology is constantly evolving and changing, that is why it offers technology training that is very crucial to the success of every IT team. The company specializes in developing skills for its IT specialists and staff with the latest trends with regard to technology.
-
-                We highly value all of our customers and so, they offer consulting services for those who want to expand their knowledge about technologies.
+                Let us know how we can help you with the best services that you want. Contact us today and experience the difference that we can make to your business!
             </h3>
-        </section>
+            <h3>                
+                SeamLogic, Inc.
+                13800 Coppermine Rd, Suite 105,
+                Herndon, Virginia, 20171
+            </h3>
+            <h3>
+            T: (703) 763-4678
+            F: (703) 345-9381
+            </h3>
+            <h3>
+            E-mail: info@seamlogic.com
+            </h3>        
+            </section>
         </>
     )
 }
