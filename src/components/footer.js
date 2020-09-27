@@ -1,5 +1,5 @@
 import React from "react";
-import LogoImg from "../images/logo.png";
+import LogoImg from "../images/Logo.png";
 
 function Message() {
     return (
