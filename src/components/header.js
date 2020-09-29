@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet"
 import { Link } from "react-scroll";
-import LogoImg from "../images/logo.png";
+import LogoImg from "../images/Logo.png";
 
 function Header() {
     return (

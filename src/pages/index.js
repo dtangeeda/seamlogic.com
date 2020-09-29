@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../components/header.js";
 import Footer from "../components/footer.js";
-import MainMessage from "../components/mainmessage.js";
+import MainMessage from "../components/mainMessage.js";
 import MainItems from "../components/mainitems.js";
 import AboutUs from "../components/aboutus.js";
 import { Helmet } from "react-helmet";
